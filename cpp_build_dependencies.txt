@@ -1,0 +1,1 @@
+boost-devel boost-filesystem boost-program-options cmake cyrus-sasl cyrus-sasl-devel cyrus-sasl-lib doxygen gcc-c++ libaio-devel libdb4-cxx-devel libibverbs-devel librdmacm-devel libuuid-devel make nspr-devel nss-devel pkgconfig python python-devel python-setuptools qpid-proton-c-devel ruby ruby-devel swig xerces-c-devel xqilla-devel
