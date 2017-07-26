@@ -1,1 +1,1 @@
-cyrus-sasl-lib python python3
+cyrus-sasl-lib libuv

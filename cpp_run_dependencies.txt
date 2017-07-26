@@ -1,2 +1,2 @@
-boost-filesystem boost-program-options boost-system compat-openssl10 libaio libuuid cyrus-sasl systemd systemd-units xqilla xerces-c libdb4 libdb4-cxx python
+boost-filesystem boost-program-options boost-system compat-openssl10 libaio libuuid cyrus-sasl systemd systemd-units xqilla xerces-c libdb4 libdb4-cxx
 
