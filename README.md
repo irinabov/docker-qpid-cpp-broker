@@ -1,6 +1,6 @@
 # docker-qpid-cpp-broker
 
-Docker image for Apache Qpid C++ broker. The image is based on Fedora 26.
+Docker image for Apache Qpid C++ broker. The image is based on fedora:latest.
 Customize container execution using env variables.
 
 ## Building images
@@ -43,13 +43,13 @@ Get help:
   - docker run --rm -p 5672:5672 irinabov/docker-qpid-cpp-broker --help
 
 Customize container execution using env variables:
-  add QPID_ to any option shown above, use capital letters and replace dashes with underscores.
+  - add QPID_ to any option shown above, use capital letters and replace dashes with underscores.
 
 For example, run docker as a daemon, change tcp port in a test container:
-  docker run -d -p 6000:6000 -e QPID_PORT=6000 --name test irinabov/docker-qpid-cpp-broker
+  - docker run -d -p 6000:6000 -e QPID_PORT=6000 --name test irinabov/docker-qpid-cpp-broker
 
 Use tools:
-  docker exec -it qpid-stat --help
-  docker exec -it test qpid-config --help
-  docker exec -it test qpid-config add queue foo --durable
-  docker exec -it test qpid-config del queue foo
+  - docker exec -it qpid-stat --help
+  - docker exec -it test qpid-config --help
+  - docker exec -it test qpid-config add queue foo --durable
+  - docker exec -it test qpid-config del queue foo
